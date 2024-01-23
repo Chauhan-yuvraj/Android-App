@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".MenuInput">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/cafe"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_margin="20sp" />
+
+    <EditText
+        android:id="@+id/order1"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="65dp"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/order_1"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/order2"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/order_2"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/order3"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:hint="@string/order_3"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/order4"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="@string/order_4"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/order5"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="@string/order_5"
+        android:autofillHints="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="2dp">
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/order"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="15dp"
+        android:layout_marginStart="25dp"
+        style="?android:attr/buttonBarButtonStyle" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/home"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="15dp"
+        android:layout_marginStart="10dp"
+        style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>
